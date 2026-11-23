@@ -51,4 +51,9 @@ public class CalculatorTest {
             exception.getMessage()
         );
     }
+    @Test
+void testNouvelleFonction() {
+    assertEquals(20, calculatrice.multiplication(4, 5));
+    assertEquals(42, calculatrice.multiplication(6, 7));
+}
 }
